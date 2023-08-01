@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        #vr{
+            transform: rotate(90deg);
+            width: 165px;
+            position: fixed;
+            margin-top: 220px;
+            margin-left: -60px;
+            
+            
+            
+        }
+        
+        #outer{
+           
+            display: flex;
+           margin-top: 0px;
+ 
+                        
+           
+        }
+        body{
+            position: fixed;
+        }
+        
+        #left{
+            
+            flex: 1;
+            color: white;
+            background-color: rgba(0, 0,0,0.85);
+            padding: 10px 10px 10px 10px;
+            height: 610px;
+            border: 4px solid black;
+            border-right: none;
+            width: 50%;
+            
+        }
+        #right{
+            height: 610px;
+            width: 50%;
+            flex: 2;
+            background-color:rgb(224, 221, 221);
+            border: 4px solid black;
+            padding: 10px 10px  10px 10px;
+        }
+        h2{
+            margin-top: 30px;
+            font-style:georgia;
+            margin-left: 180px;
+            line-height: 0.4;
+        
+        }
+        #about{
+            position: fixed;
+            margin-top: 0px;
+            margin-left: 25px;
+            
+        }
+        #aboutc{
+            padding-right: 20px;
+            margin-top: 30px;
+            margin-left: 25px;
+        }
+        #tagline{
+            margin-left: 180px;
+            margin-top: -2px;
+        }
+        #circle{
+            position:fixed;
+            height: 100px;
+            width: 100px;
+            background-color:white;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 20px;
+            display:flex;
+            border: 2px solid black;
+            
+        }
+        #contact{
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+        #contactc{
+            padding-left: 20px;
+            margin-top: -77px;
+            margin-left: 30px;
+            line-height: 0.5;
+        }
+        #social{
+            margin-top: 0px;
+            padding-left: 10px;
+        }
+        #socialc {
+            padding-left: 20px;
+            margin-top: -105px;
+            margin-left:30px;
+            line-height: 0.6;
+        }
+        #bottom{
+            display: flex;
+            color: burlywood;
+            margin-top: -14px;
+            position: relative;
+            border: 3px solid black;
+            bottom: 0;
+            width: 100%;
+            height: 28%;
+            background-color: rgba(0, 0,0,0.88);
+            margin-left: -2px;    
+        }
+        #bt1{
+            margin-top: 20px;
+            margin-left: 50px;
+        }
+        #bt2{
+            margin-top: 20px;
+            margin-left: 100px;
+        }
+       
+       p{
+        opacity: 0.7;
+       }
+       #right p{
+       
+        font-weight:500;
+       }
+       #button{
+        border-radius: 80px;
+        border: 4px solid;
+       width: 200px; 
+       height: 45px;
+       font-size: 15px;
+       font-weight: bolder;
+       margin-left: 380px;
+       margin-top: 80px
+       }
+       
+   #icons{
+    width: 10px;
+    height: 10px;
+   }
+   #i1 p{
+    padding-left: 15px;
+   line-height: 0.4;
+    margin-top: -9px;
+   }
+   #i2 p{
+    padding-left: 15px;
+    line-height:0;
+    margin-top: -7px;
+   }
+
+   #c{
+    display: flex;
+   }
+   #c1{
+    flex: 1;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+   }
+   #c2{
+    flex: 1;
+    margin-left: 20px;
+    margin-top: -4px;
+    
+   }
+  /* #v1{
+    border: 2px solid grey;
+    
+   }*/
+   #v2{
+    margin-top: -10px;
+    border: 3px solid black;
+    height: 445px;
+    
+    
+   }
+   #c1 p{
+    line-height: 0.3;
+    margin-top: -3px;
+   }
+   #c2 p{
+    line-height: 0.3;
+    margin-top: -3px;
+   }
+   #c1 h4{
+    margin-top: 0px;
+   }
+   #c2 h4{
+    margin-top: 0px;
+   }
+ 
+  #bottomc{
+    margin-top: 50px;
+    margin-left: 200px;
+    color: white;
+    
+  }   
+  #demo{
+    position: fixed;
+    border: 2px solid;
+    
+    margin-top: 8px;
+    margin-left: 670px;
+    width:180px;
+    height: 180x;
+  }
+  #demo2{
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  #welu{
+    margin-top: 50px;
+    margin-left:8px;
+    width: 250px;
+    height: 20px;
+    border: 6px solid ;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+  #welcome{
+    margin-top: 50px;
+    margin-left:5px;
+    width: 150px;
+    height: 15px;
+    border: 6px solid ;
+    padding-top: 7px;
+    padding-left: 10px;
+    border-radius: 10px;
+  }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+ul li{
+    
+    font-size: 17px;
+    font-weight: 500;
+}
+#bt{
+    color: whitesmoke;
+}
+  
+       
+    </style>
+</head>
+
+<body>
+    <hr id="vr">
+    <div id="outer">
+        <div id="left">
+
+            <img id="circle"src="prof.jpeg" alt="">
+            
+    
+    <h2 > SIVANANTHAM</h2>
+    <hr style="width: 180px;margin-left:180px">
+    <h3 id="tagline">Skilled Web Architect!..</h3>
+    
+    <br>
+    <h3 id="about">ABOUT ME</h3>
+    <p id="aboutc">As a driven Computer Science Engineering student, I possess a strong acumen for problem-solving and
+         a passion for web development. My technical skills and ability to tackle complex challenges make me a valuable asset. 
+         I am skillful at employing innovative solutions to optimize web applications, and my dedication to learning and 
+         staying cognizant of current trends fuels my ambition to excel in the field of computer science.</p>
+    <br>
+    <h4 id="contact">CONTACT </h4>
+    <div id="i1">
+        <p ><i class="fa-solid fa-mobile-screen-button"></i></p> 
+        <p ><i class="fa-solid fa-envelope"></i></p>
+        <p ><i class="fa-sharp fa-solid fa-location-dot"></i></p>
+        </div>
+ 
+
+    <div id="contactc">
+        <p>9360495377</p>
+        <p> 210701250@rajalakshmi.edu.in</p>
+        <p>No.49 SRP street, Thakkolam, <br><br><br>
+        Ranipet(dt), PinCode : 631151.</p>
+    </div>
+
+     
+    <br> 
+     <h4 id="social">SOCIAL</h4>
+     
+    <div id="i2">
+        <p><i class="fa-brands fa-facebook"></i></p>
+        <p><i class="fa-brands fa-linkedin"></i></p>
+        <p><i class="fa-brands fa-square-github"></i></p>
+        <p><i class="fa-brands fa-square-instagram"></i></p>
+    </div>
+     <div id="socialc">
+        <p><a href="https://www.linkedin.com/in/sivanantham-d-3721a3249/">LinkedIn</a></p>
+        <p><a href="https://github.com/">GitHub</a></p>
+        <p><a href="https://www.instagram.com/">Instagram</a></p>
+        <p><a href="https://www.facebook.com/facebook/">Facebook</a></p>
+    </div>
+
+
+        </div>
+        <div id="right">
+
+            <div id="c">
+                <!--<hr  id="v1">-->
+                
+                <div id="c1">
+                 
+
+                <h3 > <i class="fa fa-arrow-right"></i> PERSONAL DETAILS:</h3>
+                <ul>
+                    <li>Name: Sivanantham D</li>
+                    <li>DOB: 16/05/2004</li>
+                    <li>Age:19</li>
+                    <li>Email:sivanantham1605@gmail.com</li>
+                    <li>Phone No: 8956479235</li>
+                    <li>CGPA:9.3</li>
+                    <li>Domain: Full Stack Development</li>
+                    <li>Nationality:Indian</li>
+                </ul>
+
+                <h3><i class="fa fa-arrow-right"></i>EDUCATION</h3>
+                <ul>
+                    <li><b>SCHOOLING:</b></li>
+                    <li>Secondary Education:Royal Matriculation and Higher Secondary school</li>
+                    <li>Higher Secondary:Velammal Matriculation and Higher Secondary school</li>
+                    <li><b>COLLEGE:</b></li>
+                    <li>Name:Rajalakshmi Engineering College</li>
+                    <li>Dept: Computer Science and Engineering</li>
+                </ul>            
+                
+            </div>
+            
+            <hr   id="v2">
+            <div id="c2">
+                
+                
+                
+                <h3 ><i class="fa fa-arrow-right"></i>SKILLS</h3>
+                <ul>
+                    <li><b>PROGRAMMING LANGUAGES KNOWN:</b></li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li><b>FRAME WORK KNOWN: DJANGO</b></li>
+                    <li><b>Problem solving  and logical thinking</b></li>
+                </ul>
+                
+                
+                <h3><i class="fa fa-arrow-right"></i>CERTIFICATIONS AND OTHERS</h3>
+                <ul>
+                    <li><b>NPTEL COURSES:</b></li>
+                    <li>Data Analytics with python</li>
+                    <li>Joy of computing with python</li>
+                    <li>Competitive Programming</li>
+                    <li><b>LINKEDIN LEARNING:</b></li>
+                    <li>Advanced C</li>
+                    <li>Advanced Python</li>
+                </ul>
+            </div>   
+            </div>
+
+            <div id="bottom">
+                <div id="bt1"><h3>INTERNSHIP AND WORKSHOPS:</h3>
+                <ul>
+                    <li>Machine Learning through Python @REC</li>
+                    <li>Front end Development @ IBM SkillsBuild</li>
+                </ul>
+                </div>
+                <div id="bt2">
+                <h3>MINI PROJECTS</h3>
+                <ul>
+                    <li>JAVA App  development :Tic-Tac-Toe</li>
+                    <li>Automated Resume Builder site</li>
+                    <li>DBMS(SQL): Zoo Management System</li>
+                </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+
+
+</html>

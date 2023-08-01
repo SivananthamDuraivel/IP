@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+</head>
+<style>
+
+    body{
+        background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url("bg.jpg");
+        /* background-image:url("logo.jpeg"); */
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-position: center ;
+        background-size: 115%;
+    }
+    table,th,tr,td{
+        margin-top: 45px;
+        
+        background-color:  rgb(233, 227, 227);   
+        font:bolder;
+        
+    }
+    
+    table{
+        
+        border-collapse: collapse;
+        border: solid 2px black;
+        margin-top: 0px;
+
+    }
+    th{
+        width:120px;
+        height: 60px;
+        border: solid 1.5px black;
+    }
+    td{
+       font-size: 16px;
+       color: black;
+        border: solid 1.5px black ;
+        text-align: center;
+        height: 50px;
+    }
+    #tab td:hover{
+        background-color: rgb(119, 111, 101);
+    }
+    img{
+        position: absolute;
+        margin-top: 245px;
+        margin-left: 380px;
+        width: 560px;
+        height:340px;
+        border-radius: 400px ;
+        opacity: .48;
+
+    }
+    h1,h2,h3,h4{
+
+        color: whitesmoke;
+    }
+     #tab{
+        position:relative;
+        opacity: .8;
+        margin-left: 75px;
+        margin-top:50px;
+      width: 1200px; 
+      height: 343px;
+      border:solid 6px white;
+    
+    } 
+    #tab2 th,tr,td{
+        width: 180px;
+        text-align: center;
+        
+
+    }
+    #tab2 td{
+        padding: 10px 10px 10px 10px;
+        font-size: 18px;
+    }
+    #tab2{
+        width: 1005px;
+        height: 660px;
+        
+        margin-left: 150px;
+        border: solid 6px white;
+        margin-top: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    #CN:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #TOC:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #HCI:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #IP:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #POAI:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #RPA:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #VAP:target {
+        background-color: rgb(119, 111, 101);
+	}
+    #COUNC:target {
+        background-color: rgb(119, 111, 101);
+	}
+   
+</style>
+
+<body>
+   
+    <img src="logo.jpeg" alt="">
+    <center><h1>RAJALAKSHMI ENGINEERING COLLEGE</h1></center>
+    <center><h2>DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h2></center>
+    <center><h3>TIMETABLE FOR ACADEMIC YEAR 2023-2024(Odd Semester)</h3></center>
+    <center><h4>Year:III   Dept: CSE   Sem: V  Sec:D </h4></center>
+    <hr style="width: 500px;">
+
+    <div id="tab">
+    <center><table >
+        <tr><th>DAY</th>
+            <th>1 <br> 8:00-9:00</th>
+            <th>2 <br> 9:00-9:50</th>
+            <th>BREAK <br> 9:50-10:10</th>
+            <th>3 <br> 10:10-11:00</th>
+            <th>4 <br> 11:00-11:50</th>
+            <th>5/L <br> 11:50-12:30/12:40</th>
+            <th>L/5 <br> 12:30/12:40-1:20</th>
+            <th>6 <br> 1:20-2:10</th>
+            <th>7 <br> 2:10-3:00</th>
+        </tr>
+        <tr><td><b>TUESDAY</b></td>
+            <td colspan="2"><a href="#CN">CS19541 CN</a><br>A 208</td>
+            <td rowspan="5"><b>BREAK</b></td>
+            <td colspan="2"><a href="#CN">CS19541 CN </a>/ <a href="#POAI">AI19341 POAI LAB</a> <br> TLFL4/TLGL3</td>
+            <td><b>LUNCH</b></td>
+            <td colspan="2"><a href="#HCI">CS19PO6 HCI</a> <br> A 208</td>
+            <td><a href="#COUNC">COUNC</a><br> A 208</td>
+        </tr>
+        <tr><td><b>WEDNESDAY</b></td>
+            <td colspan="2"><a href="#CN">CS19541 CN</a> / <a href="#POAI">AI19341 POAI LAB</a> <br> TLFL1/TLGL3</td>
+            <td ><a href="#IP">CS19542 IP</a> <br>  B 218</td>
+            <td colspan="2"><a href="#VAP">VAP</a></td>
+            <td><b>LUNCH</b></td>
+            <td colspan="2"><a href="#TOC">CS19501 TOC</a> <br> A 105</td>
+        </tr>
+        <tr><td><b>THURSDAY</b></td>
+            <td colspan="2"><a href="#IP">CS19542 IP</a><br> A 208</td>
+            <td colspan="2"><a href="#HCI">CS19P06 HCI</a>/ <a href="#IP">CS19542 IP LAB </a><br> TLFL5/JL2</td>
+            <td><b>LUNCH</b></td>
+            <td ><a href="#POAI">AI19341 POAI</a> <br> A 208</td>
+            <td colspan="2"><a href="#IP">CS19542 IP</a> / <a href="#CN">CS19541 CN </a><br> TLFL4/TLFL1</td>
+        </tr>
+        <tr><td><b>FRIDAY</b></td>
+            <td colspan="2"><a href="#HCI">CS19P06 HCI</a>/ <a href="#CN">CS19541 CN LAB</a> <br> TLFL5/TLFL4</td>
+            <td colspan="2"><a href="#TOC" >CS19501 TOC</a><br> A 105</td>
+            <td><b>LUNCH</b></td>
+            <td ><a href="#CN">CS19541 CN </a><br> A 208</td>
+            <td colspan="2"><a href="#RPA">OAI1903 RPA </a><br> A  105</td></tr>
+        <tr><td><b>SATURDAY</b></td>
+            <td colspan="2"><a href="#POAI">AI19341 POAI</a> <br> A 211</td>
+            <td colspan="2"><a href="#RPA">OAI1903 RPA </a><br> A 105</td>
+            <td><a href="#IP">CS19542 IP</a> <br> A 211</td>
+            <td><b>LUNCH</b></td>
+            <td colspan="2"><a href="#IP">CS19542 IP</a>/ <a href="#CN">CS19541 CN LAB</a> <br> JL2/JL1</td>
+        </tr>
+        
+    </table>
+
+</center>
+</div>
+
+
+<div id="tab2">
+<center>
+<table>
+    <tr>
+        <th>COURSE CODE</th>
+        <th>COURSE TITLE</th>
+        <th>STAFF CODE</th>
+        <th>STAFF NAME</th>
+        <th>L</th>
+        <th>T</th>
+        <th>P</th>
+    </tr>
+    <tr>
+        <td>CS19501</td>
+        <td id="TOC">Theory of Computation</td>
+        <td>CS09/CS224</td>
+        <td>Dr.S.Poonkuzhali</td>
+        <td>4</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+        <td>CS19P06</td>
+        <td id="HCI">Human Computer Interaction</td>
+        <td>CS251</td>
+        <td>Dr.P.Shanmugam</td>
+        <td>2</td><td>0</td><td>2</td>
+    </tr>
+    <tr>
+        <td>OAI1903</td>
+        <td id="RPA">Introduction to Robotics Process Automation</td>
+        <td>CS208</td>
+        <td>Dr.N.Duraimurugan</td>
+        <td>0</td><td>0</td><td>4</td>
+    </tr>
+    <tr >
+        <td>CS19541</td>
+        <td id="CN">Computer Networks</td>
+        <td>CS175</td>
+        <td>Mr.K.Vijay</td>
+        <td>3</td><td>0</td><td>4</td>
+    </tr>
+    <tr>
+        <td>CS19542</td>
+        <td id="IP">Internet Programming</td>
+        <td>CS182</td>
+        <td>Mrs.V.Jananee</td>
+        <td>4</td><td>0</td><td>4</td>
+    </tr>
+    <tr>
+        <td>AI119341</td>
+        <td id="POAI">Priciples of Artificial Intelligence</td>
+        <td>CS281</td>
+        <td>Mr.V.Karthick</td>
+        <td>3</td><td>0</td><td>2</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td  id="COUNC">Counselling Hour</td>
+        <td>CS249/CS255/CS258</td>
+        <td>Mr.R.Pradeep/Dr.K.Anantha Jothi/Dr.SenthilPandi</td>
+        <td>1</td><td>0</td><td>0</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td id="VAP">VAP</td>
+        <td>CS282</td>
+        <td>Mrs.V.Ariyamala</td>
+        <td>2</td><td>0</td><td>0</td>
+    </tr>
+</table>
+</center>
+</div>
+</body>
+</html>
